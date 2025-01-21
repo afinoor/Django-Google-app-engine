@@ -1,0 +1,6 @@
+dispatch:
+  - url: "royaltap.site/*"
+    service: noteapp
+
+  - url: "royaltap.live/*"
+    service: default

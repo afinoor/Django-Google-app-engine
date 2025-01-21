@@ -74,23 +74,23 @@ WSGI_APPLICATION = 'notes_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
 DATABASES = {
-     'default': {
-         'ENGINE': 'django.db.backends.mysql',
-         'HOST': '/cloudsql/tt-dev-001:us-central1:noteapp-mysql',
-         'PORT' : '3306',
-         'USER': 'root',
-         'PASSWORD': '2d7D}B4z{ppO]xJR',
-         'NAME': 'noteapp-db',
-     }
-   }
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+
+# DATABASES = {
+#      'default': {
+#          'ENGINE': 'django.db.backends.mysql',
+#          'HOST': '/cloudsql/tt-dev-001:us-central1:noteapp-mysql',
+#          'PORT' : '3306',
+#          'USER': 'root',
+#          'PASSWORD': '2d7D}B4z{ppO]xJR',
+#          'NAME': 'noteapp-db',
+#      }
+#    }
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
